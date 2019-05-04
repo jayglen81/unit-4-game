@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://bit.ly/2WkgaGw")
+}
+
+#Score{
+    color: red;
+
+}
+
+#Yoda{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://bit.ly/2JhuxYC");
+}
+
+#Luke{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://bit.ly/2LoLId9")
+}
+
+#Darth{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://bit.ly/2vJ6FEV")
+}
+#Rey{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://bit.ly/2JggpyH")
+}

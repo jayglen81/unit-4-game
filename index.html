@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang ="us-eng">
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="starwars.css">
+        <title>
+            Star Wars Game 
+        </title>
+
+        <body>
+
+          
+            <!-- This is the Yoda picture with an Id of Yoda -->
+            <button id="Yoda"></button>
+
+
+            <!-- This the the Luke picture with an Id of Luke -->
+            <button img src= "https://bit.ly/2LoLId9" id="Luke"></button>
+
+
+            <!-- This is the Darth Maul picture set with an Id of Darth -->
+            <button img src= "https://bit.ly/2vJ6FEV" id="Darth"></button>
+
+
+            <!-- This is the Rey picture set with an Id of Rey -->
+            <button img src= "https://bit.ly/2JggpyH" id="Rey"></button>
+
+            <H2 id="Score">Total 2</H2>
+
+
+            <!-- // random number stored at the begining of the game 
+            
+
+            // random number stored for pic1
+
+            // random number stored for pic2
+
+            // random number stored for pic3
+
+            // random number stored for pic4
+
+            // add the number from the pics  -->
+
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script>
+                var random_number = Math.floor(Math.random() * 12) + 1  
+                var random_number1 = Math.floor(Math.random() * 12) + 1  
+                var random_number2 = Math.floor(Math.random() * 12) + 1  
+                var random_number3 = Math.floor(Math.random() * 12) + 1  
+                //generate number for the beging of the game between 19 and 120
+                function getRandomInt(min, max) {
+                min = Math.ceil(19);
+                max = Math.floor(120);
+                return Math.floor(Math.random() * (max - min)) + min
+                alert ()
+                }
+                $("#Yoda").on("click", function() {
+
+                }
+                // variable defined for pic1
+                var pic1 = random_number
+                // variable defined for pic2
+                var pic2 = random_number1   
+                // variable defined for pic3
+                var pic3 = random_number2
+                // variable defined for pic4
+                var pic4 = random_number3
+
+                
+           
+            </script>
+
+
+
+
+
+        </body>
+    </head>
+</html>    

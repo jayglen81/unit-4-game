@@ -18,15 +18,15 @@
 
 
             <!-- This the the Luke picture with an Id of Luke -->
-            <button img src= "https://bit.ly/2LoLId9" id="Luke"></button>
+            <button id="Luke"></button>
 
 
             <!-- This is the Darth Maul picture set with an Id of Darth -->
-            <button img src= "https://bit.ly/2vJ6FEV" id="Darth"></button>
+            <button id="Darth"></button>
 
 
             <!-- This is the Rey picture set with an Id of Rey -->
-            <button img src= "https://bit.ly/2JggpyH" id="Rey"></button>
+            <button id="Rey"></button>
 
             <H2 id="Score">Total 2</H2>
 
@@ -58,7 +58,19 @@
                 alert ()
                 }
                 $("#Yoda").on("click", function() {
+                    $("#Yoda" + "#Score").text("#Score")
+                }
 
+                $("#Rey").on("click", function() {
+                    $("#Rey" + "#Score").text("#Score")
+                }
+
+                $("#Darth").on("click", function() {
+                    $("#Darth" + "#Score").text("#Score")
+                }
+
+                $("#Luke").on("click", function() {
+                    $("#Luke" + "#Score").text("#Score")
                 }
                 // variable defined for pic1
                 var pic1 = random_number
